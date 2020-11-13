@@ -32,7 +32,9 @@
 				"assets/stylesheets/foundation.css",
 				"assets/stylesheets/pivot.css",
 				"assets/stylesheets/fontawsome.css",
-				"assets/stylesheets/pivot-print.css"
+				"assets/stylesheets/pivot-print.css",
+				"assets/stylesheets/fonts.css",
+				"assets/stylesheets/additions.css"
 			]
 		},
 		"skins.pivot.modernizr": {
@@ -62,7 +64,8 @@
 				"assets/scripts/foundation/foundation.alert.js",
 				"assets/scripts/foundation/foundation.accordion.js",
 				"assets/scripts/foundation/foundation.abide.js",
-				"assets/scripts/pivot.js"
+				"assets/scripts/pivot.js",
+				"assets/scripts/additions.js"
 			],
 			"dependencies": [
 				"jquery.cookie",

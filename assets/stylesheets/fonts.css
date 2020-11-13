@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'eberron';
+    src: url('../fonts/Eberron.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'celestia';
+    src: url('../fonts/Celestia Antiqua.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'infernal';
+    src: url('../fonts/Infernal.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'enochian';
+    src: url('../fonts/Enochian.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dwarf';
+    src: url('../fonts/DwarvenRunes1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'magi';
+    src: url('../fonts/Alphabet of the Magi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'hymmnos';
+    src: url('../fonts/Hymmnos.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pterra-dactyl';
+    src: url('../fonts/Pterra-dactyl.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'angelic';
+    src: url('../fonts/Angelic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'giant';
+    src: url('../fonts/Giant Runes.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ar-ciela';
+    src: url('../fonts/Ar-Ciela Compartment.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'high-fiber';
+    src: url('../fonts/High Fiber.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

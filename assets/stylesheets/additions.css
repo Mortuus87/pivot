@@ -1,0 +1,315 @@
+/* Font overriding classes */
+.font-eberron {
+  font-family: 'eberron', sans-serif;
+}
+.font-celestia {
+  font-family: 'celestia', sans-serif;
+}
+.font-infernal {
+  font-family: 'infernal', sans-serif;
+  font-size: 2rem;
+  line-height: 1em;
+}
+.font-enochian {
+  font-family: 'enochian', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1em;
+}
+.font-dwarf {
+  font-family: 'dwarf', sans-serif;
+}
+.font-magi {
+  font-family: 'magi', sans-serif;
+}
+.font-hymmnos { 
+  font-family: 'hymmnos', sans-serif;
+  font-size: 2rem;
+  line-height: 1em;
+}
+.font-giant { 
+  font-family: 'giant', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1em;
+}
+.font-angelic { 
+  font-family: 'angelic', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1em;
+}
+.font-ar-ciela { 
+  font-family: 'ar-ciela', sans-serif;
+  font-size: 2rem;
+  line-height: 1em;
+}
+.font-high-fiber { 
+  font-family: 'high-fiber', sans-serif;
+  font-size: 1.5rem;
+}
+
+/* navigation icons */
+#n-Using-this-wiki ::before {
+  content: "\f05a"; /* info */
+}
+
+#n-Introduction ::before {
+  content: "\f02d"; /* book */
+}
+
+#n-Setting-Rules ::before {
+  content: "\f059"; /* question mark */
+}
+
+#n-Player-characters ::before {
+  content: "\f0c0"; /* group */
+}
+
+#n-Character-generator ::before {
+  content: "\f007"; /* user */
+}
+
+#accesscontrol {
+  color: #AC0000 !important;
+}
+
+/* 
+ 	f70e scroll
+*/
+
+/* p, ul, ol, dl, 
+.thumbcaption, 
+.side-nav li a,
+.toctogglelabel,
+.mw-editsection a,
+.mw-normal-catlinks a,
+.infobox tr td {
+  font-family: 'celestia', sans-serif;
+} */
+
+h1.title, 
+h2 span.mw-headline, 
+h3 span.mw-headline, 
+h4 span.mw-headline, 
+h5 span.mw-headline, 
+h6 span.mw-headline {
+  font-family: 'pterra-dactyl', sans-serif;
+}
+
+.side-nav label.sidebar,
+.title span,
+h3#tagline, 
+h4.label,
+span#page-actions,
+.toctitle h2,
+.mw-category-generated h2,
+#personal-tools label,
+.infobox tr th {
+  font-family: 'pterra-dactyl', sans-serif;
+}
+
+.infobox {
+  box-shadow: 0px 0px 20px -10px rgba(0, 0, 0, 0.5);
+  margin: 0 0 14px 8px;
+  max-width: 320px;
+  float: right;
+  color: var(--color-primary-text);
+  background-color: var(--color-secondary-bg);
+  border: 1px solid var(--color-border-color);
+}
+
+.infobox .thumbinner {
+  /* margin: 0 auto; */
+  width: 100% !important;
+}
+
+.infobox .thumbimage {
+  width: 100%;
+}
+
+.infobox tr th {
+  font-size: 1.2rem;
+}
+
+.infobox td {
+  vertical-align: baseline;
+}
+
+.infobox td+td {
+  max-width: 200px;
+}
+
+.table-container {
+  margin: 0;
+  overflow: scroll;
+  width: auto;
+  max-width: 100%;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+.table-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.toctitle h2 {
+  padding: 2px 6px;
+  margin-bottom: 0;
+}
+
+#mw-content-text ul#filetoc {
+  margin: 0 0 1rem;
+}
+
+.mw-references-wrap {
+  margin-bottom: 1em;
+}
+
+ol.references li:target {
+  background-color: var(--color-label-bg);
+}
+
+.handout dl,
+.handout dl dt,
+.handout dl dd {
+  font-size: unset;
+}
+
+.handout {
+  color: #333;
+  font-family: 'high-fiber', sans-serif;
+  font-size: 1.5em;
+  background-color: rgb(243, 229, 204);
+  box-shadow: 15px 15px 15px -10px black;
+  padding: 8px 24px 10px 16px;
+  margin-bottom: 1rem;
+}
+
+.statblock {
+  max-width: 600px;
+}
+
+.statblock .header {
+  display: flex;
+  position: relative;
+}
+
+.statblock .header p {
+  background-color: var(--color-secondary-text);
+  color: var(--color-dark-text);
+  padding: 2px 6px;
+  font-family: 'pterra-dactyl', sans-serif;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.statblock .header sup {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+.divider {
+  text-transform: uppercase;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+}
+
+#mw-content-text ul.gallery {
+  margin-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+ul.gallery .gallerytext {
+  display: none;
+}
+
+.mw-references-wrap .references {
+  font-size: 0.8rem;
+}
+
+.CategoryTreeToggle {
+  color: var(--color-primary-link);
+}
+
+.CategoryTreeToggle:hover {
+  color: var(--color-primary-hover-link);
+}
+
+.CategoryTreeEmptyBullet {
+  color: var(--color-tertiary-text);
+}
+
+#mw-content-text .infobox ul.gallery.mw-gallery-slideshow {
+  margin: 0;
+  padding: 0;
+}
+
+.infobox ul.gallery.mw-gallery-slideshow .mw-gallery-slideshow-buttons {
+  padding: 0;
+}
+
+.infobox ul.gallery.mw-gallery-slideshow .mw-gallery-slideshow-buttons .oo-ui-buttonElement {
+  margin: 0;
+}
+
+ul.mw-gallery-traditional li.gallerybox {
+  width: 140px !important;
+}
+ul.mw-gallery-traditional li.gallerybox>div,
+ul.mw-gallery-traditional li.gallerybox>div .thumb {
+  width: 100% !important;
+}
+
+.printfooter {
+  display: none;
+}
+
+.catlinks.catlinks-allhidden {
+  display: none;
+}
+
+.catlinks ul {
+  display: inline;
+  margin: 0;
+  list-style: none;
+}
+.catlinks li {
+  display: inline;
+}
+
+.catlinks li a {
+  margin-right: .5rem;
+}
+
+.catlinks li:not(:first-of-type) a {
+  margin-left: .5rem;
+}
+
+.catlinks li:not(:first-of-type)::before {
+  content: "|";
+  color: var(--color-border-color);
+}
+
+.mw-editsection {
+  font-size: .8rem;
+  margin-left: .5rem;
+}
+
+@media only screen and (max-width: 650px) {
+  .infobox {
+    margin: 0;
+    margin-bottom: 1rem;
+    float: none;
+    max-width: unset;
+    width: 100%;
+  }
+}
