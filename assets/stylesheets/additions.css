@@ -290,6 +290,10 @@ ul.mw-gallery-traditional li.gallerybox>div .thumb {
   margin-right: .5rem;
 }
 
+.catlinks li:last-of-type a {
+  margin-right: 0;
+}
+
 .catlinks li:not(:first-of-type) a {
   margin-left: .5rem;
 }
@@ -304,6 +308,53 @@ ul.mw-gallery-traditional li.gallerybox>div .thumb {
   margin-left: .5rem;
 }
 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container .md-half {
+  flex: 0 0 calc(50% - 0.3rem);
+  padding: .5rem;
+  margin-bottom: 1rem;
+}
+
+.container .full {
+  width: 100%;
+  padding: .5rem;
+  margin-bottom: 1rem;
+}
+
+.frame-box {
+  box-shadow: 0px 0px 20px -10px rgba(0,0,0,0.5);
+  border: 1px solid var(--color-border-color);
+}
+
+a.external {
+  background-image: url("/wiki/resources/assets/external-link-ltr-icon.svg");
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: .8rem;
+  padding-right: 1rem;
+}
+
+blockquote p {
+  color: var(--color-primary-text);
+}
+
+blockquote cite {
+  color: var(--color-secondary-text);
+}
+
+blockquote cite a {
+  color: var(--color-primary-link);
+}
+
+blockquote cite a:visited {
+  color: var(--color-primary-link);
+}
+
 @media only screen and (max-width: 650px) {
   .infobox {
     margin: 0;
@@ -312,4 +363,9 @@ ul.mw-gallery-traditional li.gallerybox>div .thumb {
     max-width: unset;
     width: 100%;
   }
+
+  .container .md-half {
+    flex: 0 0 100%;
+  }
+
 }
