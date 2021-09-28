@@ -6,44 +6,60 @@
   font-family: 'celestia', sans-serif;
 }
 .font-infernal {
-  font-family: 'infernal', sans-serif;
+  font-family: 'infernal';
   font-size: 2rem;
   line-height: 1em;
 }
 .font-enochian {
-  font-family: 'enochian', sans-serif;
+  font-family: 'enochian';
   font-size: 1.5rem;
   line-height: 1em;
 }
-.font-dwarf {
-  font-family: 'dwarf', sans-serif;
+.font-dwarf,.font-dwarven {
+  font-family: 'dwarf';
 }
-.font-magi {
-  font-family: 'magi', sans-serif;
+.font-magi,.font-kshaali {
+  font-family: 'magi';
 }
 .font-hymmnos { 
-  font-family: 'hymmnos', sans-serif;
+  font-family: 'hymmnos';
   font-size: 2rem;
   line-height: 1em;
 }
 .font-giant { 
-  font-family: 'giant', sans-serif;
+  font-family: 'giant';
   font-size: 1.5rem;
   line-height: 1em;
 }
 .font-angelic { 
-  font-family: 'angelic', sans-serif;
+  font-family: 'angelic';
   font-size: 1.5rem;
   line-height: 1em;
 }
-.font-ar-ciela { 
-  font-family: 'ar-ciela', sans-serif;
+.font-ar-ciela,.font-old-ornian { 
+  font-family: 'ar-ciela';
   font-size: 2rem;
   line-height: 1em;
 }
 .font-high-fiber { 
   font-family: 'high-fiber', sans-serif;
   font-size: 1.5rem;
+}
+
+span.gold {
+  transform: translate(-50%,-50%);
+  background-image: linear-gradient(
+    to right,
+    #4b3020 0,
+    #cb9b51 22%, 
+    #f6e27a 45%,
+    #f6f2c0 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #4b3020 100%
+  );
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 /* navigation icons */
@@ -64,12 +80,18 @@
 }
 
 #n-Character-generator ::before {
-  content: "\f007"; /* user */
+  content: "\f085"; /* user */
+}
+
+#n-City-generator ::before {
+  content: "\f085"; /* cogs */
 }
 
 #accesscontrol {
-  color: #AC0000 !important;
+  color: rgba(255, 67, 67, 0.69) !important;
 }
+
+
 
 /* 
  	f70e scroll
@@ -216,20 +238,25 @@ ol.references li:target {
   background-color: var(--color-label-bg);
 }
 
-.handout dl,
-.handout dl dt,
-.handout dl dd {
-  font-size: unset;
-}
-
-.handout {
+#mw-content-text .handout {
   color: #333;
-  font-family: 'high-fiber', sans-serif;
+  font-family: 'high-fiber';
   font-size: 1.5em;
   background-color: rgb(243, 229, 204);
   box-shadow: 15px 15px 15px -10px black;
   padding: 8px 24px 10px 16px;
   margin-bottom: 1rem;
+}
+
+#mw-content-text .handout p,
+#mw-content-text .handout dl,
+#mw-content-text .handout dl dt,
+#mw-content-text .handout dl dd {
+  font-size: unset;
+}
+
+#mw-content-text .handout hr {
+  border-color: #333;
 }
 
 .statblock {
@@ -276,8 +303,13 @@ ul.gallery .gallerytext {
   display: none;
 }
 
+.mw-references-wrap {
+  margin-bottom: 1em;
+}
+
 .mw-references-wrap .references {
   font-size: 0.8rem;
+  margin-bottom: 0;
 }
 
 .CategoryTreeToggle {
@@ -338,7 +370,7 @@ ul.mw-gallery-traditional li.gallerybox>div .thumb {
 
 .catlinks li a,
 .navbox li a {
-  margin-right: .5rem;
+  margin-right: .25rem;
 }
 
 .catlinks li:last-of-type a,
@@ -346,15 +378,20 @@ ul.mw-gallery-traditional li.gallerybox>div .thumb {
   margin-right: 0;
 }
 
-.catlinks li:not(:first-of-type) a,
-.navbox li:not(:first-of-type) a {
-  margin-left: .5rem;
-}
+/* .catlinks li:not(:last-of-type) a,
+.navbox li:not(:last-of-type) a {
+  
+} */
 
-.catlinks li:not(:first-of-type)::before,
-.navbox li:not(:first-of-type)::before {
+.catlinks li:not(:last-of-type)::after,
+.navbox li:not(:last-of-type)::after {
   content: "|";
   color: var(--color-border-color);
+  margin-left: .25rem;
+}
+
+.catlinks li:not(:last-of-type)::after {
+  margin-right: .25rem;
 }
 
 .mw-editsection {
@@ -431,6 +468,10 @@ pre {
 
 .template-link {
   float: right;
+}
+
+.subpages+.mw-redirectedfrom {
+  margin-left: .5rem;
 }
 
 @media only screen and (max-width: 650px) {
