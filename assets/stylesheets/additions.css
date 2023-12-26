@@ -21,37 +21,37 @@
 .font-magi,.font-kshaali {
   font-family: 'magi';
 }
-.font-hymmnos { 
+.font-hymmnos {
   font-family: 'hymmnos';
   font-size: 2rem;
   line-height: 1em;
 }
-.font-giant { 
+.font-giant {
   font-family: 'giant';
   font-size: 1.5rem;
   line-height: 1em;
 }
-.font-angelic { 
+.font-angelic {
   font-family: 'angelic';
   font-size: 1.5rem;
   line-height: 1em;
 }
-.font-ar-ciela,.font-old-ornian { 
+.font-ar-ciela,.font-old-ornian {
   font-family: 'ar-ciela';
   font-size: 2rem;
   line-height: 1em;
 }
-.font-high-fiber { 
+.font-high-fiber {
   font-family: 'high-fiber', sans-serif;
   font-size: 1.5rem;
 }
 
-span.gold {
+.gold {
   transform: translate(-50%,-50%);
   background-image: linear-gradient(
     to right,
     #4b3020 0,
-    #cb9b51 22%, 
+    #cb9b51 22%,
     #f6e27a 45%,
     #f6f2c0 50%,
     #f6e27a 55%,
@@ -93,12 +93,12 @@ span.gold {
 
 
 
-/* 
+/*
  	f70e scroll
 */
 
-/* p, ul, ol, dl, 
-.thumbcaption, 
+/* p, ul, ol, dl,
+.thumbcaption,
 .side-nav li a,
 .toctogglelabel,
 .mw-editsection a,
@@ -107,18 +107,18 @@ span.gold {
   font-family: 'celestia', sans-serif;
 } */
 
-h1.title, 
-h2 span.mw-headline, 
-h3 span.mw-headline, 
-h4 span.mw-headline, 
-h5 span.mw-headline, 
+h1.title,
+h2 span.mw-headline,
+h3 span.mw-headline,
+h4 span.mw-headline,
+h5 span.mw-headline,
 h6 span.mw-headline {
   font-family: 'pterra-dactyl', sans-serif;
 }
 
 .side-nav label.sidebar,
 .title span,
-h3#tagline, 
+h3#tagline,
 h4.label,
 span#page-actions,
 .toctitle h2,
@@ -142,7 +142,7 @@ span#page-actions,
   margin: 0 auto;
   background-color: var(--color-primary-bg);
   box-shadow: 0px 0px 25px -10px rgba(0,0,0,0.8);
-  
+
 }
 
 #toc ul, .toc ul {
@@ -176,6 +176,10 @@ span#page-actions,
   width: 100%;
 }
 
+.infobox .thumbcaption {
+  padding: 0 .25rem;
+}
+
 .infobox tr th {
   font-size: 1.2rem;
 }
@@ -191,6 +195,10 @@ span#page-actions,
 
 .infobox td {
   vertical-align: baseline;
+}
+
+.infobox.noborder td {
+  padding: 0;
 }
 
 .infobox td+td {
@@ -324,6 +332,10 @@ ul.gallery .gallerytext {
   color: var(--color-tertiary-text);
 }
 
+#mw-content-text .infobox ul {
+  margin-bottom: 0;
+}
+
 #mw-content-text .infobox ul.gallery.mw-gallery-slideshow {
   margin: 0;
   padding: 0;
@@ -380,7 +392,7 @@ ul.mw-gallery-traditional li.gallerybox>div .thumb {
 
 /* .catlinks li:not(:last-of-type) a,
 .navbox li:not(:last-of-type) a {
-  
+
 } */
 
 .catlinks li:not(:last-of-type)::after,
