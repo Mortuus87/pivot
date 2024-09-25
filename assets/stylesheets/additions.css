@@ -67,6 +67,10 @@
   content: "\f05a"; /* info */
 }
 
+#n-Foundry-VTT ::before {
+  content: "\f0ac"; /* globe */
+}
+
 #n-Introduction ::before {
   content: "\f02d"; /* book */
 }
@@ -186,11 +190,10 @@ span#page-actions,
 
 .template-link sup {
   font-size: 10px;
-
-  font-family:sans-serif;
-  position:absolute;
-  top:.6rem;
-  right:.5em;
+  font-family: sans-serif;
+  position: absolute;
+  top: .6rem;
+  right: .5em;
 }
 
 .infobox td {
