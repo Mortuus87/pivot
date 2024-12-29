@@ -1427,6 +1427,10 @@ ul[class*="block-grid"] {
   overflow: inherit;
 }
 
+.mw-apisandbox-toolbar {
+  background-color: transparent;
+}
+
 #sidebar .logo a {
   padding: 0;
 }
@@ -1440,7 +1444,9 @@ ul[class*="block-grid"] {
   margin: 0 0 0 1em;
 }
 
-
+#mw-history-compare #pagehistory li.selected {
+  background-color: var(--color-label-bg);
+}
 
 ul li.toclevel-1 {
   margin-right: 1em;
@@ -1522,6 +1528,18 @@ legend {
   /* color: var(--color-primary-text); */
 }
 
+.oo-ui-popupWidget-popup {
+  background-color: var(--color-secondary-bg);
+}
+
+.oo-ui-outlineOptionWidget {
+
+}
+
+.oo-ui-outlineOptionWidget.oo-ui-optionWidget-selected {
+  background-color: var(--color-secondary-bg);
+}
+
 .ui-dialog-buttonpane.ui-widget-content {
   background: var(--color-secondary-bg);
 }
@@ -1534,6 +1552,11 @@ legend {
 .mw_metadata th,
 .mw_metadata td {
   background-color: inherit;
+}
+
+kbd {
+  background-color: var(--color-secondary-bg);
+  color: var(--color-primary-text);
 }
 
 /* END OVERRIDE */
