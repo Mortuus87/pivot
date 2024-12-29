@@ -181,6 +181,7 @@ body.action-formedit .row.hide-on-form-edit {
 
 .postedit-container .postedit {
   background-color: var(--color-secondary-bg);
+  color: var(--color-primary-text);
 }
 
 /* Also adjust z-index of action menu to force it on top */
