@@ -1426,7 +1426,7 @@ ul[class*="block-grid"] {
   overflow: inherit;
 }
 
-.mw-apisandbox-toolbar {
+#mw-apisandbox-ui .mw-apisandbox-toolbar {
   background: transparent;
 }
 
