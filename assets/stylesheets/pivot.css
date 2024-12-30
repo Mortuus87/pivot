@@ -1427,7 +1427,7 @@ ul[class*="block-grid"] {
 }
 
 .mw-apisandbox-toolbar {
-  background-color: transparent;
+  background: transparent;
 }
 
 #sidebar .logo a {
