@@ -1558,7 +1558,7 @@ kbd {
   color: var(--color-primary-text);
 }
 
-table thead {
+table thead tr th {
   background: var(--color-tertiary-bg);
   color: var(--color-header-text);
 }
