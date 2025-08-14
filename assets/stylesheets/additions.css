@@ -503,3 +503,8 @@ pre {
   }
 
 }
+
+/* prevent uneven spacing around | that separate category links */
+.catlinks li:not(:last-of-type) a {
+  margin-right: 0;
+}
